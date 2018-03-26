@@ -1,0 +1,7 @@
+body{background-color:#FFC0CB;font-style:italic;}
+*{color:blue;} <!-- 全体选择符 -->
+em{color:red;} <!-- 元素选择符 -->
+.mycolor1{color:purple;}<!-- 类选择符 .类-->
+#20180318{color:green;}<!-- 类选择符 #Id-->
+:link{color:blue;}<!-- 伪类选择符-->
+#20180318 em {color:blue;}<!-- 伪类选择符-->
