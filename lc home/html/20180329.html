@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd>
+<html>
+	<head>
+		<title>我的主页</title>
+		<style type = "text/css">
+			fieldset {border:none;}
+			
+		</style>
+	</head>
+	<body>
+	<form>
+		<select name = "size">
+		<option selected ="selected"> </option>
+		<option>小 </option>
+		<option> 中</option>
+		<option> 大</option>
+		</select>
+		<select name = "size" size = 2>
+		<option>小 </option>
+		<option> 中</option>
+		<option> 大</option>
+		</select>
+		<select name = "size" multiple="multiple">
+		<option>小 </option>
+		<option> 中</option>
+		<option> 大</option>
+		</select>
+		<select name = "size" size = 1 multiple="multiple">
+		<option value = "" selected ="selected"> </option>
+		<option value = "0">小 </option>
+		<option  value = "1"> 中</option>
+		<option  value = "2"> 大</option>
+		</select>
+		
+		<select name = "Westernfood">
+		<option selected ="selected">西餐菜单</option>
+		<optgroup label="前菜">
+		<option>开胃菜</option>
+		<option>鱼子酱</option>
+		</optgroup>
+		<optgroup label="主菜">
+		<option>牛排</option>
+		<option>烤春鸡</option>
+		</optgroup>
+		</select>
+		<p><textarea rows= "5" cols="50" name = "message">行内元素与块级元素直观上的区别二、行内元素与块级元素的三个区别
+    行内元素会在一条直线上排列（默认宽度只与内容有关），都是同一行的，水平方向排列。
+
+    块级元素各占据一行（默认宽度是它本身父容器的100%（和父元素的宽度一致），与内容无关）</textarea> </p>
+	</form>
+	<form>
+		<fieldset>
+			<legend accesskey = "T">请选择感兴趣的项目</legend>
+			<ul>
+				<li>
+					<label>
+					<input type= "checkbox" />
+						电影
+					</label>
+				</li>
+				<li>
+					<label>
+					<input type= "checkbox" />
+						音乐
+					</label>
+				</li>
+			</ul>
+		</fieldset>
+	<form>
+	</body>
+</html>
